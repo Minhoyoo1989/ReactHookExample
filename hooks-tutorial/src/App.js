@@ -1,23 +1,10 @@
-import Info from "./info";
+// import Info from "./info";
+import Counter from "./Counter";
 import "./App.css";
-import { useState } from "react";
+// import { useState } from "react";
 
 function App() {
-  const [visible, setVisible] = useState(false);
-
-  return (
-    <div>
-      <button
-        onClick={() => {
-          setVisible(!visible);
-        }}
-      >
-        {visible ? "숨기기" : "보이기"}
-      </button>
-      <hr />
-      {visible && <Info />}
-    </div>
-  );
+  return <Counter />;
 }
 
 export default App;
