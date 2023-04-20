@@ -14,10 +14,10 @@ const Info = () => {
   });
   console.log(state);
 
-  const name = state.name;
-  const nickname = state.nickname;
+  // const name = state.name;
+  // const nickname = state.nickname;
 
-  // const [name, nickname] = state;
+  const { name, nickname } = state;
   const onChange = (e) => {
     dispatch(e.target);
   };
