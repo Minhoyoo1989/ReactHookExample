@@ -12,8 +12,12 @@ const Info = () => {
     name: "",
     nickname: "",
   });
+  console.log(state);
 
-  const [name, nickname] = state;
+  const name = state.name;
+  const nickname = state.nickname;
+
+  // const [name, nickname] = state;
   const onChange = (e) => {
     dispatch(e.target);
   };
