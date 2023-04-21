@@ -12,7 +12,7 @@ const Info = () => {
     name: "",
     nickname: "",
   });
-  console.log(state);
+  // console.log(state);
 
   // const name = state.name;
   // const nickname = state.nickname;
