@@ -2,13 +2,13 @@
 
 리액트 훅 연습 예제
 
-useState :
+## useState :
 
 - useState는 가장 기본적인 훅이며, 함수 컴포넌트에서도 가변적인 상태를 지닐 수 있게 해 줍니다.
 
 - useState와 onChange기능을 사용하여 인풋받은 내용을 실시간으로 가변으로 만들 수 있습니다.
 
-useEffect :
+## useEffect :
 
 - useEffect는 리액트 컴포넌트가 렌더링 될 때마다 특정 작업을 수행 하도록 설정 할 수 있는 Hook입니다. 클래스형 컴포넌트의 comnentDidMount와 componmentDidUpdate를 합친 형태로 봐도 무방합니다.
 
@@ -25,22 +25,29 @@ useEffect :
 
 - 오직 언마운트가 될 때만 뒷정리 함수를 싱행하고 싶다면 두번 째 파라미터에 빈배열을 넣어주면 됩니다.
 
-useReducer:
+## useReducer:
 
 - useReducer는 useState보다 더 다양한 컴포넌트 상황에 따라 다양한 상태를 다른 값으로 업데이트 해 주고 싶을 때 사용하는 Hook입니다. 리듀서(Reducer)의 개념은 리덕스에서 좀 더 구체적으로 사용하고 있습니다.
   리듀서는 현재상태, 그리고 업데이트를 위한 필요한 정보를 담은 액션(action) 값을 전달받아 새로운 상태를 반환하는 함수입니다.
   리듀서 함수에서 새로운 상태를 만들 때는 반드시 불변성을 지켜주어야 합니다.
 - useReducer의 첫 번째파라미터에는 리듀서 함수를 넣고, 두 번째 파라미터에는 해당 리듀서의 기본값을 넣어 줍니다. 이 Hook을 사용하게 되면 state값과 dispatch 함수를 받아오는데 state는 현재 상태 dispatch는 액션으로 변화된 값을 가리킵니다. dispatch가 적용된 값이 변화될 때마다 useReducer는 작동하여 해당값으로 변화된 값을 렌더링하여 보여줍니다.
+
+## useMemo:
+
+-useMemo를 사용하면 함수컴포넌트 내부에서 발생하는 연산을 최적화할 수 있습니다.
+
+## useCallback:
+
 -
+
+## useRef:
+
 -
+
+## 커스텀 훅 만들기:
+
 -
 
-useMemo
+## 정리:
 
-useCallback
-
-useRef
-
-커스텀 훅 만들기
-
-정리
+-
