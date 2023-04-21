@@ -50,7 +50,9 @@
 
 ## useRef:
 
--
+-useRef Hook은 함수 컴포넌트에서 ref를 쉽게 사용 할 수 있도록 해 줍니다.
+
+-useRef를 사용하여 ref를 설정하면 useRef를 통해 만든 객체 안에 current 값이 실제 엘리먼트 를 가리킵니다.
 
 ## 커스텀 훅 만들기:
 
